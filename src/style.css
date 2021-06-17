@@ -1,0 +1,333 @@
+a:hover {
+  background: cadetblue;
+  color: white;
+  font-weight: bold;
+}
+
+a {
+  color: cadetblue;
+  font-weight: bolder;
+  text-decoration: none;
+  padding: 5px 7px;
+  margin: 3px;
+  border-radius: 3px;
+}
+
+a.active {
+  background-color: cadetblue;
+  color: white;
+}
+
+a.logout {
+  background-color: #f8f9fa;
+  color: cadetblue;
+}
+
+a.logout:hover {
+  background-color: cadetblue;
+  color: white;
+}
+
+#brand {
+  background-color: white;
+  color: cadetblue;
+  border: 1px solid coral;
+  border-radius: 7px;
+  font-weight: bolder;
+}
+
+#brand:hover {
+  background-color: cadetblue;
+  color: white;
+}
+
+form {
+  margin-top: 70px;
+}
+
+.full-form {
+  margin-top: 35px;
+}
+
+.full-update-form {
+  margin-top: 15px;
+}
+
+label {
+  color: cadetblue;
+  font-weight: bold;
+  margin: 8px 0 0 0 !important;
+}
+
+input {
+  border-color: coral !important;
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(255, 123, 0, 0.75);
+  -moz-box-shadow: 0px 0px 5px 0px rgba(255, 123, 0, 0.75);
+  box-shadow: 0px 0px 5px 0px rgba(255, 123, 0, 0.75);
+  text-align: center;
+}
+
+.response {
+  font-weight: bolder;
+  color: dimgray;
+  text-transform: uppercase;
+}
+
+button.submit {
+  font-weight: bolder;
+  background-color: cadetblue !important;
+  border-color: cadetblue !important;
+  color: white;
+}
+
+button.submit:hover {
+  background-color: white !important;
+  color: cadetblue;
+  border: 1px solid cadetblue;
+}
+button.reset {
+  font-weight: bolder;
+  background-color: coral !important;
+  border-color: coral !important;
+  color: white;
+}
+
+button.reset:hover {
+  background-color: white !important;
+  color: coral;
+  border: 1px solid coral;
+}
+
+nav {
+  border-bottom: 3px solid cadetblue;
+  padding: 0 !important;
+}
+
+.navbar-toggler {
+  color: cadetblue !important;
+}
+
+.btn:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+#check-numbers input::-webkit-outer-spin-button,
+#check-numbers input::-webkit-inner-spin-button,
+#ticket-numbers input::-webkit-outer-spin-button,
+#ticket-numbers input::-webkit-inner-spin-button,
+#draw-numbers input::-webkit-outer-spin-button,
+#draw-numbers input::-webkit-inner-spin-button,
+#prize-form input::-webkit-outer-spin-button,
+#prize-form input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+#check-numbers input[type="number"],
+#ticket-numbers input[type="number"],
+#draw-numbers input[type="number"],
+#prize-form input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+#check-numbers input {
+  font-size: 63px;
+  display: inline-block;
+  border: 2px solid #2c3e50;
+  border-radius: 50%;
+  text-align: center;
+  width: 100px;
+  height: 100px;
+  margin: 0.7%;
+  font-weight: bolder;
+  background-color: rgba(255, 255, 255, 0.637);
+  -webkit-box-shadow: 0px 0px 9px 0px rgba(255, 123, 0, 0.75);
+  -moz-box-shadow: 0px 0px 9px 0px rgba(255, 123, 0, 0.75);
+  box-shadow: 0px 0px 9px 0px rgba(255, 123, 0, 0.75);
+}
+
+#check-numbers {
+  margin-top: 40px;
+}
+
+#title {
+  font-size: 53px;
+  color: cadetblue;
+  margin-top: 50px;
+  font-weight: bolder;
+  text-shadow: -1px 0 coral, 0 1px coral, 1px 0 coral, 0 -1px coral !important;
+}
+
+sub {
+  font-size: 53px;
+}
+
+#brand sub {
+  font-size: 19px;
+}
+
+caption {
+  color: cadetblue;
+  font-weight: bolder;
+}
+
+.table-head {
+  background-color: cadetblue;
+  color: white;
+}
+
+td {
+  color: dimgray;
+  font-weight: bolder;
+}
+
+.nav {
+  margin-top: 20px;
+}
+
+.fa-trash {
+  color: coral;
+}
+
+.fa-trash:hover {
+  color: red;
+  cursor: pointer;
+}
+
+.fa-pen {
+  color: cadetblue;
+}
+
+.fa-pen:hover {
+  color: lime;
+  cursor: pointer;
+}
+
+span {
+  margin-left: 13px;
+}
+
+#prize-form {
+  margin-top: 10px;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#prize-form input {
+  color: dimgray;
+  font-weight: bolder;
+}
+
+.navbar-toggler-icon {
+  margin: 0;
+}
+
+table {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+#draw-title {
+  margin-top: 30px;
+  color: coral;
+  font-weight: bolder;
+}
+
+.draw {
+  margin-top: 50px;
+}
+
+.num {
+  display: inline-block;
+  font-size: 63px;
+  border: 1px solid coral;
+  border-radius: 7px;
+  text-align: center;
+  width: 100px;
+  height: 100px;
+  margin: 0.7%;
+  font-weight: bolder;
+  background-color: rgba(255, 255, 255, 0.637);
+  -webkit-box-shadow: 0px 0px 7px 0px rgba(255, 123, 0, 0.75);
+  -moz-box-shadow: 0px 0px 7px 0px rgba(255, 123, 0, 0.75);
+  box-shadow: 0px 0px 7px 0px rgba(255, 123, 0, 0.75);
+}
+
+button:disabled {
+  cursor: not-allowed;
+  pointer-events: all !important;
+}
+
+td,
+th {
+  border: 1px solid cadetblue !important;
+}
+
+th {
+  font-size: 13px;
+}
+
+#user-trash-icon {
+  color: coral;
+}
+
+#user-trash-icon:hover {
+  color: red;
+}
+
+.users {
+  margin-top: 10px;
+}
+
+#pagination {
+  display: flex;
+}
+
+#pagination {
+  list-style-type: none !important;
+}
+
+#ticket-numbers input {
+  font-size: 63px;
+  display: inline-block;
+  border: 2px solid #2c3e50;
+  border-radius: 13px;
+  text-align: center;
+  width: 100px;
+  height: 100px;
+  margin: 0.7%;
+  font-weight: bolder;
+}
+
+.dropdown-item:hover {
+  background-color: coral;
+  color: white;
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+.page-item {
+  background-color: cadetblue;
+  color: white;
+}
+
+.page-item:hover {
+  background-color: coral;
+  color: white;
+  cursor: pointer;
+}
+
+.table-pagination {
+  border: none;
+}
+
+.table-pagination li {
+  border-radius: 7px;
+}
+
+.pagination > li.active {
+  background-color: coral;
+  color: white;
+  font-weight: bolder;
+}
